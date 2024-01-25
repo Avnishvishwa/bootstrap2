@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body{
+			background: #eee;
+			background:pink;
+		}
+		.card{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			line-height: 300px;
+			margin: -150px;
+			background: white;
+			color: #03446a;
+			text-align: center;
+			font-size: 40px;
+			box-shadow: 0 0 15px rgba(0,0,0,1.0);
+			/*animation-name: sample;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;*/
+			animation: sample 2s infinite alternate; 
+/*			it is the same like last 4 lines*/
+		}
+
+		@keyframes sample{
+			0%{border-radius: 0%;}
+			25%{background-color: red;}
+			50%{background-color: yellow;}
+			100%{
+				border-radius: 50%;
+				background-color: blue;
+				color: white;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="card">
+		pninfosys
+	</div>
+
+</body>
+</html>
